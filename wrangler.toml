@@ -12,19 +12,19 @@ CUSTOM_DOMAIN = "libcuda.so"
 [env.dev.vars]
 MODE = "debug"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
-CUSTOM_DOMAIN = "exmaple.com"
+CUSTOM_DOMAIN = "569877.xyz"
 
 [env.production]
 name = "cloudflare-docker-proxy"
-# routes = [
-#   { pattern = "docker.libcuda.so", custom_domain = true },
-#   { pattern = "quay.libcuda.so", custom_domain = true },
-#   { pattern = "gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s-gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s.libcuda.so", custom_domain = true },
-#   { pattern = "ghcr.libcuda.so", custom_domain = true },
-#   { pattern = "cloudsmith.libcuda.so", custom_domain = true },
-# ]
+routes = [
+  { pattern = "docker.569877.xyz", custom_domain = true },
+  { pattern = "quay.569877.xyz", custom_domain = true },
+  { pattern = "gcr.569877.xyz", custom_domain = true },
+  { pattern = "k8s-gcr.569877.xyz", custom_domain = true },
+  { pattern = "k8s.569877.xyz", custom_domain = true },
+  { pattern = "ghcr.569877.xyz", custom_domain = true },
+  { pattern = "cloudsmith.569877.xyz", custom_domain = true },
+]
 
 [env.production.vars]
 MODE = "production"
